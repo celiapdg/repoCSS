@@ -1,0 +1,13 @@
+/* selectores ordenados de menor a mayor peso */
+
+* {}
+
+h1 {}
+
+.container {}
+
+.container href {}
+
+#titulo {}
+
+/* por último, !important se aplica a cualquier propiedad para que sobreescriba lo especificado en cualquier otro caso */

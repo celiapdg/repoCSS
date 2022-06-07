@@ -1,0 +1,22 @@
+html {
+    background-color: rgb(213, 255, 241);
+}
+
+p {
+    column-count: 3;
+    column-rule: red solid 2px;
+    column-gap: 40px;
+}
+
+p:hover {
+    background-color: rgb(9, 26, 100);
+    color: rgb(133, 201, 178);
+}
+
+h1 {
+    color: rgb(20, 138, 118)
+}
+
+h1:hover {
+    color: rgb(9, 26, 100)
+}
