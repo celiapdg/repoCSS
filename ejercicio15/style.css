@@ -1,0 +1,9 @@
+.text {
+    float: left;
+    width: 49%;
+}
+
+img {
+    float: right;
+    width: 49%;
+}
