@@ -1,0 +1,11 @@
+div {
+    margin: 30px;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    outline: yellowgreen dotted 10px;
+}
+
+div:hover {
+    outline: black dotted 5px;
+}
