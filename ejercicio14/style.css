@@ -1,0 +1,18 @@
+div {
+    border: solid 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.even {
+    border-color: white;
+}
+
+.odd {
+    border-color: red;
+}
+
+.outer {
+    border-color: rgb(189, 189, 189);
+    box-shadow: 0px 0px 8px #000000;
+}
