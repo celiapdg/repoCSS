@@ -1,0 +1,16 @@
+div {
+    background-color: greenyellow;
+    width: 42%;
+    height: 210px;
+    margin: 10px;
+    -webkit-margin-collapse: collapse;
+    display: inline-block;
+}
+
+.of-hidden {
+    overflow: hidden;
+}
+
+.of-auto {
+    overflow: auto;
+}
