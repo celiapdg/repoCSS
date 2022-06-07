@@ -19,6 +19,12 @@ table {
     padding-top: 5px;
 }
 
+
+caption {
+    margin: auto;
+    width: fit-content;
+}
+
 tbody td {
     border-top-width: 0px;
     border-right-width: 0px;
@@ -29,9 +35,4 @@ tfoot td,
 caption {
     border-width: 0px;
     background-color: blue;
-}
-
-caption {
-    margin: auto;
-    width: fit-content;
 }
