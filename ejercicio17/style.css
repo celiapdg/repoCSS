@@ -1,0 +1,50 @@
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+.row {
+    clear: both;
+
+}
+
+.disco {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    float: left;
+}
+
+.operador {
+    float: left;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.azul {
+    background-color: rgb(0, 0, 255);
+}
+
+.rojo {
+    background-color: rgb(255, 0, 0);
+}
+
+.verde {
+    background-color: rgb(0, 255, 0);
+}
+
+.rosa {
+    background-color: rgb(255, 0, 255);
+}
+
+.cyan {
+    background-color: rgb(0, 255, 255);
+}
+
+.amarillo {
+    background-color: rgb(255, 255, 0);
+}
