@@ -1,0 +1,266 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.portada {
+    position: relative;
+    z-index: -2;
+}
+
+.portada-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portada-text {
+    position: absolute;
+    z-index: 10;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 37%;
+    color: white;
+    text-align: center;
+}
+
+.portada h1 {
+    font-weight: 500;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.portada p {
+    font-size: 26px;
+}
+
+.descripcion {
+    text-align: center;
+    padding: 2%;
+}
+
+.descripcion h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-weight: 500;
+}
+
+.descripcion-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 40px 20px;
+}
+
+.descripcion img {
+    max-width: 35%;
+}
+
+.descripcion h3 {
+    color: #00B172;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.descripcion p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+.muestra {
+    background-color: #00B172;
+    color: white;
+    padding: 5%;
+}
+
+.muestra h2 {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.muestra h3 {
+    font-weight: 500;
+    margin: 5% 0;
+}
+
+@media (max-width: 425px) {
+    nav {
+        height: 30px;
+        position: fixed;
+        display: flex;
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .portada-text {
+        top: 37%;
+    }
+
+    .portada h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .portada p {
+        font-size: 16px;
+    }
+
+    .descripcion {
+        padding-top: 30px;
+    }
+
+    .descripcion-contenedor {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+
+    .muestra {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .icon {
+        width: 40%;
+        align-self: center;
+        margin: 40px;
+    }
+
+    .kanye {
+        width: 80%;
+        align-self: center;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+    .portada-text {
+        top: 39%;
+    }
+
+    .portada h1 {
+        font-weight: 500;
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+
+    .portada p {
+        font-size: 18px;
+    }
+
+
+    .muestra {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .muestra h3 {
+        grid-column: span 2;
+    }
+
+    .muestra-texto {
+        grid-column: 1;
+    }
+
+    .icon {
+        width: 50%;
+        grid-column: 2;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .kanye {
+        margin: 40px;
+        width: 80%;
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .muestra {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 70px;
+        justify-content: space-between;
+    }
+
+    .muestra h2 {
+        grid-column: span 2;
+    }
+
+    .muestra h3 {
+        font-weight: 500;
+        margin: 5% 0;
+    }
+
+    .muestra-texto {
+        grid-column: 1;
+    }
+
+    .muestra .kanye {
+        grid-column: 3/4;
+        grid-row: 1 /span 2;
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .muestra .icon {
+        margin: 0 auto;
+        width: 30%;
+        align-self: center;
+    }
+}
